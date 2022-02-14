@@ -4,7 +4,7 @@ This application exposes a series of APIs as outlined in `contract.yml`.
 
 ## Running the Application
 
-To run this application, first make sure you have docker desktop. Clone this repository and then run `docker-compose up -d` in the root of the project. Once completed, you should be able to see the `backend` container under the `convictional_challenge` working directory on docker desktop. Visit the following urls on your browser to see the API respinse or use applications like [postman](https://www.postman.com/) to call the endpoints.
+To run this application, first make sure you have docker desktop. Clone this repository and then run `docker-compose up -d` in the root of the project. Once completed, you should be able to see the `backend` container under the `convictional` working directory on docker desktop. Visit the following urls on your browser to see the API respinse or use applications like [postman](https://www.postman.com/) to call the endpoints.
 
 - [Get all products](http://localhost:4001/products)
 - [Get a single product](http://localhost:4001/products/1000000001)
