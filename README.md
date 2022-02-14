@@ -6,11 +6,11 @@ This application exposes a series of APIs as outlined in `contract.yml`.
 
 To run this application, first make sure you have docker desktop, then run `docker-compose up -d`. Once completed, you should be able to see the `backend` container under the `convictional_challenge` working directory on docker desktop. Visit the following urls on your browser to see the API respinse or use applications like [postman](https://www.postman.com/) to call the endpoints.
 
-- [Get all products](localhost:4001/products)
-- [Get a single product](localhost:4001/products/1000000001)
-- [Supply an invalid product id](localhost:4001/products/1000000001)
-- [Search for a product that doesn't exist](localhost:4001/products/500)
-- [Get inventory](localhost:4001/store/inventory)
+- [Get all products](http://localhost:4001/products)
+- [Get a single product](http://localhost:4001/products/1000000001)
+- [Supply an invalid product id](http://localhost:4001/products/1000000001)
+- [Search for a product that doesn't exist](http://localhost:4001/products/500)
+- [Get inventory](http://localhost:4001/store/inventory)
 
 ## Tech Stack Used
 
