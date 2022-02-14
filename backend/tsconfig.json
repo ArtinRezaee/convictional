@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "target": "ES2018",
+    "lib": ["es2019"],
+    "baseUrl": ".",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "strict": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "incremental": true,
+    "typeRoots": ["./node_modules/@types"],
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "plugins": []
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  backend:
+    env_file:
+      - "./backend/.env"
+    build:
+      context: ./backend
+      dockerfile: ./Dockerfile
+    image: "artinrezaee/convictional-challenge-backend"
+    ports:
+      - "4001:4001"

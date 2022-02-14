@@ -1,0 +1,16 @@
+FROM node:14.18.3
+
+LABEL version="1.0"
+LABEL description="Base Docker image for Convictional backend"
+
+WORKDIR /convictional_challenge
+
+COPY ["package.json", "package-lock.json", "./"]
+
+RUN npm install --silent
+
+COPY . .
+
+EXPOSE 3001
+
+CMD ["npm", "run", "watch"]
