@@ -8,7 +8,7 @@ To run this application, first make sure you have docker desktop, then run `dock
 
 - [Get all products](http://localhost:4001/products)
 - [Get a single product](http://localhost:4001/products/1000000001)
-- [Supply an invalid product id](http://localhost:4001/products/1000000001)
+- [Supply an invalid product id](http://localhost:4001/products/1000000001s)
 - [Search for a product that doesn't exist](http://localhost:4001/products/500)
 - [Get inventory](http://localhost:4001/store/inventory)
 
